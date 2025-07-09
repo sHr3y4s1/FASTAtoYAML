@@ -1,3 +1,4 @@
+## Python v3.11.8
 import yaml
 from collections import defaultdict 
 def fasta_to_yaml(fasta_file, binder_chain, yaml_file):
