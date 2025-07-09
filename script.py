@@ -24,4 +24,4 @@ def fasta_to_yaml(fasta_file, binder_chain, yaml_file):
     with open(yaml_file, 'w') as f_out:
         yaml.dump(dict(data2), f_out, sort_keys=False)
 
-fasta_to_yaml('Q9JFD6_dna.fasta', 'A', 'Q9JFD6_dna2.yaml')
+fasta_to_yaml('input.fasta', 'A', 'output.yaml')
